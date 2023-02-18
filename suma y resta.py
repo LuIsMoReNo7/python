@@ -1,8 +1,21 @@
 #Suma y Resta
 
 
-#ingresar las tres calificaciones:
+#ingresar los tres valores:
 
-n1 = int(input("ingrese la nota 1 : "))
-n2 = int(input("ingrese la nota 2 : "))
-n3 = int(input("ingrese la nota 3 : "))
+v1 = int(input("ingrese el valor 1 : "))
+v2 = int(input("ingrese el valor 2 : "))
+v3 = int(input("ingrese el valor 3 : "))
+
+
+#Obtenemos la sumatoria
+suma = v1+ v2 + v3
+
+#Obtenemos la resta
+resta = v1 - v2 - v3
+
+#mostrar la suma de valor
+print("la suma de valores", suma)
+print("la resta de valores", resta)
+
+
